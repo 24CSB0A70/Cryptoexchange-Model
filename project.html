@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Currency Price</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <nav>
+        <img src="pacmanlogo.jpeg" class="logo">
+        <ul>
+            <li><a href="#">Market</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <button onclick="showSignupForm()">Sign Up</button>
+            <button onclick="showLoginForm()">Login</button>
+        </div>
+      </nav>
+      <div class="content">
+        <h1>BUY & <br>SELL <span> Crypto </span> </h1>
+        <p> World's Biggest Cryptocurrency exchange available on web.</p><br>
+        <a href="index.html" class="btn"> EXCHANGER</a>
+      </div>
+      <div class="coin-list">
+        <div class="coin">
+            <img src="bitcoin2-logo-bitcoin-icon-transparent-free-png.webp">
+            <div>
+                <h3 id="bitcoin-price">Loading...</h3>
+                <p>Bitcoin</p>
+            </div>
+        </div>
+        <div class="coin">
+            <img src="ethereum 2.jpeg">
+            <div>
+                <h3 id="ethereum-price">Loading...</h3>
+                <p>Ethereum</p>
+            </div>
+        </div>
+        <div class="coin">
+            <img src="dogecoin 2.jpeg">
+            <div>
+                <h3 id="dogecoin-price">Loading...</h3>
+                <p>Dogecoin</p>
+            </div>
+        </div>
+    </div>
+    
+      </div>
+
+    <div id="form-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
